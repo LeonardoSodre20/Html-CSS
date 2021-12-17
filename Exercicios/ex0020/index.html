@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas em HTML</title>
+
+
+
+    <style>
+
+
+        /*
+            Box-Level
+
+            ---------------------------------------
+
+            Sempre que for trabalhar com proporções , respeitar a ordem como se fosse um ponteiro de um relógio , topo , direita, inferior, esquerda.
+
+
+            ---------------------------------------
+
+            Para centralizar caixas no CSS , basta utilizar o comando margin: auto.
+        */
+        h1
+        {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+            
+            /*border: 10px solid black;*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*padding: 10px 10px 40px 10px; ou padding: 10px se todas as medidas forem exatamente iguais*/
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+
+            /*margin: auto;*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            /*outline: 5px dashed salmon;*/
+        }
+
+        /*inline-level*/
+        a
+        {
+            border: 2px dashed red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos de Box-levels</h1>
+    <p>Parágrafos também são exemplos de box-levels, mas os <a href="#">links são modelos de caixas inline-box.</a> Vamos ver como tudo funciona na prática!</p>
+</body>
+</html>
