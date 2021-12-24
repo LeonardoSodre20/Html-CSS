@@ -88,6 +88,18 @@ section#img02{
    
 }
 
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape > a{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 600px)
 {
     section.conteudo{
@@ -110,5 +122,11 @@ section#img02{
     .cabecalho > p{
         font-size: 1em;
     }
+
+    .rodape{
+        font-size: 60%
+    }
 }
+
+
 
