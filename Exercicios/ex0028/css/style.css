@@ -125,7 +125,9 @@ section#img02{
 
     .rodape{
         font-size: 60%;
-        
+        color: white;
+        padding: 20px;
+        text-align: center;
     }
 }
 
