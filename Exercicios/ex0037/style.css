@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.elementExample{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.elementExample_first{
+    background-color: violet;
+}
+
+.elementExample_last{
+    background-color: red;
+}

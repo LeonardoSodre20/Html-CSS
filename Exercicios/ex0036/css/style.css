@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.example{
+    color: black;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.example::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+}
+
+.example-item{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+}
+
+.example-item-first{
+    background-color: yellow;
+}
+
+.example-item-second{
+    background-color: blue;
+    
+}
+
+.example-item-third{
+    background-color: orange;   
+}
+
