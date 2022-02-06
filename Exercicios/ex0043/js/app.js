@@ -10,6 +10,8 @@ const TaskCheckDescription = () => {
         return inputTask.value 
     }
 
+    
+
 }
 
 buttonAddTask.addEventListener('click', () => TaskCheckDescription())
