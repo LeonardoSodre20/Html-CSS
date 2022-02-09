@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    display: flex;
+    height: 800px;
+    flex-flow: wrap;/*Ajuda na responsividade do site , sempre tenta preservar a largura necessária para o conteúdo*/
+}
+
+.container .flex-items
+{
+    border: 2px solid black;
+    flex: 1;
+    width: 20%;
+}
+
+.container .item-1
+{
+    flex-basis: 33%;/*Aumenta o tamanho do item de acordo com o main Axis/
+    /*order: 4;
+    /*flex: 3;/*Aumenta a largura do item de acordo com o tamanho do container e de acordo com o flex-direction*/
+}

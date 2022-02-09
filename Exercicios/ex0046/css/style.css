@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    background-color: darkgrey;
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px black;
+}
+
+.header .logo{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.header .logo:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.header  .nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 1.1em;
+}
+
+.header .nav-list a{
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.header .nav-list a:hover{
+    background-color: rgb(138, 137, 137);
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-input .input-search{
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    width: 230px;
+    box-shadow: 5px 5px 10px rgb(107, 107, 107);
+    text-indent: 20px;
+}
+
+.header .menu-mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .header  .nav-list{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header .logo{
+        margin-left: 35px;
+    }
+
+    .header .menu-mobile{
+        margin-right: 35px;
+        display: block;
+    }
+
+    .header .menu-mobile:hover{
+        cursor: pointer;
+    }
+
+    .header .active-menu-mobile{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        position: absolute;
+        top: 120px;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: darkgrey;
+        height: 100vh; 
+        
+    }
+
+    .header .active-menu-mobile li{
+        padding: 15px;
+        border-bottom: 2px solid white;
+        width: 100%;
+        text-align: center;
+    }
+}
