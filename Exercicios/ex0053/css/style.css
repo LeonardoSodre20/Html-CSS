@@ -169,3 +169,7 @@ a{
     font-size: 1.1em;
     padding: 15px;
 }
+
+.validInputCheck{
+    border: 1px solid green;
+}
