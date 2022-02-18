@@ -1,0 +1,26 @@
+.example{
+    color: orange;
+    text-align: center;
+   
+}
+
+.example-item{
+    border: 1px solid black;
+    display: inline;
+}
+
+.example-item-first{
+    background: yellow;
+}
+
+.example-item-second{
+    background: blue;
+}
+
+.example-item-third{
+    background: aquamarine;
+}
+
+h3{
+    text-align: right;
+}

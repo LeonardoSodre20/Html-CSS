@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body
+        {
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header
+        {
+            
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            font-style: italic;
+            border-radius: 10px;
+        }
+
+        header > nav
+        {
+            
+            background-color: rgb(87, 87, 87);
+            padding: 5px;
+            box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.891);
+            border-radius: 7px;
+    
+            
+        }
+
+        nav > a
+        {
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            font-weight: bold;
+            
+        }
+
+        nav > a:hover
+        {
+            text-decoration: underline;
+        }
+
+        main
+        {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article
+        {
+            background-color: lightgray;
+            padding: 5px;
+            text-align: justify;
+            
+        }
+
+        article > aside
+        {
+            background-color: rgba(22, 19, 19, 0.419);
+            box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.891);
+            border-radius: 7px;
+            
+        }
+
+        aside > p
+        {
+            padding: 2px;
+            margin-left: 5px;
+            font-weight: bold;
+            color: white;
+            
+        }
+
+        footer
+        {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        footer > p
+        {
+            margin: 0px;
+        }
+
+        #bola
+        {
+            
+            height: 100px;
+            width: 200px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 3px 1px 1px black;
+            margin: auto;
+            margin-top: 15px;
+            
+        }
+
+        #bola:hover
+        {
+            background-color: yellow;
+            transition-duration: 0.6s;
+        }
+
+        #bola > p
+        {
+            text-align: center;
+            padding: 35px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 20px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, hic aut iste dolor consequuntur maiores, natus a optio accusamus veniam vel quae necessitatibus rerum esse magni ea quasi eos sequi!
+                </p>
+                <aside>
+                    <p>Artigo escrito por José Silva da Costa</p>
+                </aside>
+            </article>
+
+            <article>
+
+
+            </article>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <p>Desenvolvido por Leonardo Vieira Sodré</p>
+    </footer>
+
+    <div id="bola"><p>Confirmar</p></div>
+</body>
+</html>

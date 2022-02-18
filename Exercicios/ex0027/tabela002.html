@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Tabela em HTML</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            margin-left: 70px;
+        }
+
+        table
+        {
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead{
+            background-color: rgb(82, 81, 81);
+            position: sticky;
+            top: -1px;
+        }
+
+        td , th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        tfoot{
+            background-color: rgba(0, 0, 0, 0.46);
+            font-weight: bolder;
+        }
+
+        tbody > tr:nth-child(2n)
+        {
+            background-color: lightgray;
+            font-weight: bolder;
+            color: red;
+        }
+
+        caption{
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <!--
+
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            THEAD
+
+            TBODY
+
+            TFOOT
+
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
+        <thead>
+            <th scope="col" style="width: 100px;">Estado</th>
+            <th scope="col" style="width: 100px;">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>30 817 050</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>50 817 050</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>30 817 050</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes:</th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

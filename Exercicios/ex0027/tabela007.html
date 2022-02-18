@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização de uma Tabela</title>
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 350px;
+        }
+
+        tr,td,th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-weight: bolder;
+            color: white;
+        }
+
+        caption{
+            padding: 10px;
+        }
+
+        .vermelho{
+            background-color: red;
+        }
+
+        .amarelo{
+            background-color: yellow;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Estilizando uma Tabela</h1>
+
+    <table>
+
+        <colgroup>
+
+            <col class="vermelho">
+            <col class="vermelho">
+            <col class="amarelo">
+
+        </colgroup>
+
+
+
+
+        <caption>Design Tabela</caption>
+
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+        </tr>
+
+        <tr>
+            <td>Leonardo</td>
+            <td>Masculino</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>José</td>
+            <td>Masculino</td>
+            <td>46</td>
+        </tr>
+
+        <tr>
+            <td>Alessandra</td>
+            <td>Feminino</td>
+            <td>44</td>
+        </tr>
+
+        <tr>
+            <td>Eduarda</td>
+            <td>Feminino</td>
+            <td>23</td>
+        </tr>
+    </table>
+</body>
+</html>

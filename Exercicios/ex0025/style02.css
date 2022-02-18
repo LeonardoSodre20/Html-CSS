@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+main{
+    display: flex;
+    
+}
+.box-card .box{
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.box-card img{
+    width: 100%;
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontTitle: 'Bebas Neue', cursive;
+    --fontBody: 'Dancing Script', cursive;
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cabecalho > h1{
+    font-size: 10vw;
+    font-family: var(--fontTitle);
+    
+}
+
+.cabecalho > p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    color: black;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+section 
+{
+    padding: 50px;
+    font-family: var(--fontBody);
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+section.conteudo{
+    background-color: white;
+}
+
+section > p#paragrafo-conteudo
+{
+    padding-top: 2em;
+}
+
+section.imagemBG{
+    background-color: rgba(0, 0, 0, 0.508);
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 10px 2px black;
+}
+
+section.imagemBG > p
+{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+   
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape > a{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 600px)
+{
+    section.conteudo{
+        font-size: 1.4em;
+    }
+
+    section.imagemBG{
+        font-size: 1.4em;
+    }
+
+    section.imagemBG > p
+    {
+        width: 240px;
+    }
+
+    .cabecalho > h1{
+        font-size: 15vw;
+    }
+
+    .cabecalho > p{
+        font-size: 1em;
+    }
+
+    .rodape{
+        font-size: 60%;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+
+

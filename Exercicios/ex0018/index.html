@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo a tag DIV</title>
+
+    <style>
+
+        body
+        {
+            background-color: rgb(81, 230, 180);
+            
+        }
+
+        div
+        {
+            font-family: sans-serif;
+            background: cyan;
+            width: 17em;
+            height: 26em;
+            border-color: rgb(3, 22, 22);
+            border-radius: 1.2em;
+            box-shadow: 10px 10px 10px rgb(22, 65, 65);
+            
+            
+        }
+        #title1, #title2
+        {
+            color: red;
+        }
+        #titlePrincipal
+        {
+            font-size: 20px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>
+        Lista de Jogadores Convocados para a Seleção das Estrelas
+    </h1>
+
+    <div>
+      
+        <ul>
+            <li id="titlePrincipal"><strong>Jogadores de Futebol</strong></li>
+
+            <ul>
+                 <li id="title1"><strong>Titulares</strong></li>
+                <ol>
+               
+                    <strong>
+                        <li>Harry Kane</li>
+                        <li>Jack Grealish</li>
+                        <li>Lucas Moura</li>
+                        <li>LLoris</li>
+                        <li>Cristiano Ronaldo</li>
+                        <li>Lionel Messi</li>
+                        <li>Neymar Jr</li>
+                        <li>Kylian Mbappe</li>
+                    </strong>
+                </ol>
+            </ul>
+
+            <ul>
+                <li id="title2"><strong>Reservas</strong></li>
+                <ol id="colorNumber">
+                    <strong>
+                        <li>Icardi</li>
+                        <li>Gabriel Jesus</li>
+                        <li>Erling Halaand</li>
+                        <li>Jessie Lingard</li>
+                        <li>Romelu Lukaku</li>
+                        <li>Eden Harzard</li>
+                        <li>Kevin De Bruyne</li>
+                        <li>Phil Foden</li>
+                    </strong>
+                </ol>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>

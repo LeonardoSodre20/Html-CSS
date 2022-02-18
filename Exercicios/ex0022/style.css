@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Positions no CSS
+
+    fixed: vai deixar o objeto fixo na página independente da rolagem do mouse.
+
+    sticky: É semelhante ao fixed , porém quando o usuário está visualizando o site por exemplo , o sticky fará com que quando ele chegar no container ou a barra de rolagem atingir o container , esse objeto será colado na tela.
+
+    Relative: é a posição relativa em que o objeto se encontra.
+
+    Absolute: Para trabalhar com Absolute , devemos ter uma hierárquia para trabalhar , por exemplo , existe um container e dentro de desse container existe uma box , então colocamos a posição relative para o container e posição absoluta para a box , ou seja a box vai ter posição absoluta em relação ao container e não ao corpo da página.
+
+
+    Propriedades do Position: Top, Left, Bottom, Right.
+
+*/
+
+body
+{
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container-principal{
+    margin-top: 20vh;
+    position: relative;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+
+}
+
+.box{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

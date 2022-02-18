@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+header{
+    background: linear-gradient(90deg, #07c972, #359d9e);
+    color: white;
+    font-weight: bolder;
+}
+
+header .container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+
