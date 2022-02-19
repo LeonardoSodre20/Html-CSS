@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: violet;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh;
+}
+
+.header{
+    background-color: yellow;
+    height: 100px;
+}
+
+.main{
+    background-color: blue;
+    height: 100px;
+}
+
+.aside{
+    background-color: green;
+    height: 100px;
+}
+
+.footer{
+    background-color: red;
+    height: 100px;
+}
