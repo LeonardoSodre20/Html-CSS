@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    transition: all 1s;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.logo:hover{
+    color: rgb(207, 73, 73);
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.nav-list{
+    display: flex;
+    gap: 15px;
+}
+
+.links-list{
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    transition: all 1s;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.links-list:hover{
+    color: rgb(226, 64, 64);
+    background-color: #fff;
+    text-decoration: underline;
+}

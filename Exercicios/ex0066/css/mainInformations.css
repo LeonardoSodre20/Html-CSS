@@ -1,0 +1,58 @@
+.container-main-informations{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: backInLeft;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+
+.container-subscribe-game-jam{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.container-subscribe-game-jam:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background: linear-gradient(to right , #232e34, #61b986);
+    color: white;
+}
+
+.container-icon{
+    height: 120px;
+    width: 120px;
+    background: linear-gradient(to right, #03eaff, #6d4fe7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 15px rgba(0, 0,0, 1);
+}
+
+.container-informations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.title-container-informations{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+

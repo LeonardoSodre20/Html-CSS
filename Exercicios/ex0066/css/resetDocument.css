@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('../backgrounds/home-office-7218315.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+nav, ul , li, ol , a{
+    text-decoration: none;
+    list-style: none;
+}
